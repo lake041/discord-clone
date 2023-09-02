@@ -22,19 +22,15 @@
 - Chore: Release v20.08.1 -> https://github.com/Flank/flank/pull/982
  -->
 
-### Description
+## Motivation
 
 -
 
-<br>
-
-### Motivation
+## Description
 
 -
 
-<br>
-
-#### CheckList
+## CheckList
 
 - [ ] 웹표준 준수
 - [ ] 코딩 컨벤션 준수
