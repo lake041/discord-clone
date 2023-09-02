@@ -2,6 +2,7 @@
 ** PR 제목 컨벤션
 - Build: Changes that affect the build system or external dependencies (dependencies update)
 - CI: Changes to our CI configuration files and scripts (basically directory .github/workflows)
+- Dir : Changes to folder structure
 - Docs: Documentation only changes
 - Feat: A new feature
 - Fix:  A bug fix
