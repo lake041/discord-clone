@@ -1,5 +1,4 @@
 import { ChannelType } from "@prisma/client";
-import { redirectToSignIn } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
 import { db } from "@/lib/db";
@@ -15,7 +14,7 @@ export const ServerSidebar = async ({ serverId }: ServerSidebarProps) => {
   const profile = await currentProfile();
 
   if (!profile) {
-    return redirectToSignIn();
+    return redirect("/");
   }
 
   // channels와 members를 포함하는 새로운 타입의 server를 정의하기 때문에 @/types.ts에 따로 타입을 선언해주어야 한다.
