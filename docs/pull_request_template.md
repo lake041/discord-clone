@@ -11,17 +11,7 @@
 - Style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - Test: Adding missing tests or correcting existing tests and also changes for our test app
 - Perf: A code change that improves performance (I do not think we will use it)
-
-** 예시
-- Feat: Add locales description command for ios and android -> https://github.com/Flank/flank/pull/969
-- Fix: rate limit exceeded -> https://github.com/Flank/flank/pull/919
-- CI: Added leading V to version name -> https://github.com/Flank/flank/pull/980
-- Refactor: config entities and arguments -> https://github.com/Flank/flank/pull/831
-- Docs: Add secrets and vision doc -> https://github.com/Flank/flank/pull/922
-- Build: Disable Auto Doc Generation -> https://github.com/Flank/flank/pull/942
-- Test: added multi modules to test app -> https://github.com/Flank/flank/pull/857
-- Chore: Release v20.08.1 -> https://github.com/Flank/flank/pull/982
- -->
+-->
 
 ## Motivation
 
