@@ -17,6 +17,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         // 추가
         primary: "bg-indigo-500 text-white hover:bg-indigo-500/90",
+        warning: "bg-rose-500 text-white hover:bg-rose-500/90",
       },
       size: {
         default: "h-10 px-4 py-2",
