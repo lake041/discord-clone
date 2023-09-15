@@ -35,8 +35,6 @@ export const DeleteChannelModal = () => {
         },
       });
 
-      console.log(url);
-
       await axios.delete(url);
 
       onClose();
