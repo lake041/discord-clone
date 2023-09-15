@@ -35,6 +35,7 @@ export const useChatQuery = ({ queryKey, apiUrl, paramKey, paramValue }: ChatQue
     queryFn: fetchMessages,
     getNextPageParam: (lastPage) => lastPage?.nextCursor,
     // WebSocket
+    // refetchInterval: 1000,
     refetchInterval: isConnected ? false : 1000,
   });
 

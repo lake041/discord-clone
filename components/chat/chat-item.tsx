@@ -132,7 +132,15 @@ export const ChatItem = ({
               rel="noopener noreferrer"
               className="relative aspect-square rounded-md overflow-hidden border flex items-center bg-secondary h-48 w-48"
             >
-              <Image src={fileUrl} alt={content} fill className="object-cover" />
+              {/* Image 컴포넌트 공식문서 참고 */}
+              <Image
+                src={fileUrl}
+                alt={content}
+                fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1200px) 50vw, 33vw"
+                priority={true}
+                className="object-cover"
+              />
             </a>
           )}
           {isPDF && (
