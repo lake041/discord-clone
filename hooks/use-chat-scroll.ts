@@ -53,5 +53,5 @@ export const useChatScroll = ({ chatRef, bottomRef, shouldLoadMore, loadMore, co
         });
       }, 100);
     }
-  }, [chatRef, loadMore, shouldLoadMore]);
+  }, [chatRef, bottomRef, count, hasInitialized]);
 };
